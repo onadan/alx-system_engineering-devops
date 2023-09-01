@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | sort -t/ -k2,2 -k1,1 | tr '\n' ','
+ls -Aa1p | paste -sd ', ' - 
